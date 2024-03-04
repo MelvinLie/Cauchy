@@ -14,11 +14,13 @@ This code is using the poetry packaging manager. All You need to do is to run:
 
 Then You can launch the examples by
 
-poertry run examples/plot_example_1.py
+poertry run python examples/plot_example_1.py
 
 I advice You to generate the autodocs. To do so, navigate to the docs directory and launch
 
 poetry run make html
+
+Find below an example gallery.
 
 Autor: Melvin Liebsch
 
