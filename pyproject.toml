@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "cauchy"
+version = "0.1.0"
+description = ""
+authors = ["meliebsc <melvin.liebsch@cern.ch>"]
+readme = "README.md"
+
+[tool.poetry.build]
+generate-setup-file = false
+script = "build.py"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.26.4"
+matplotlib = "^3.8.3"
+pandas = "^2.2.1"
+sphinx-gallery = "^0.15.0"
+myst-parser = "^2.0.0"
+cython = "^3.0.8"
+pydata-sphinx-theme = "^0.15.2"
+sphinxcontrib-apidoc = "^0.5.0"
+toml = "^0.10.2"
+
+
+[build-system]
+requires = ["poetry-core",
+            "Cython",
+            "numpy"]
+build-backend = "poetry.core.masonry.api"
