@@ -1,2 +1,2 @@
-# Caucy
-A lightweight boundary element (CAUchy) method in CYthon.
+# Cauchy
+A lightweight boundary element method (Cauchy method) in python and C.
