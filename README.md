@@ -25,3 +25,6 @@ Find below an example gallery.
 Autor: Melvin Liebsch
 
 Emai: melvin.liebsch@cern.ch
+
+# List of issues
+- The Dirichlet data that is written out by the FFMM is scaled wrongly! We need to apply a factor of 1e-3.
